@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 17.5px; /* Enhanced base font scale for readable luxury aesthetics */
+}
+
+body {
+  @apply bg-cream text-charcoal antialiased;
+  /* Use auto fallback; custom Bee cursor floats above */
+}
+
+/* Custom bee cursor targeting */
+@media (pointer: fine) {
+  a, button, [role="button"], input, select, textarea {
+    cursor: pointer;
+  }
+}
+
+:focus-visible {
+  @apply outline-none ring-2 ring-gold ring-offset-2 ring-offset-cream;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

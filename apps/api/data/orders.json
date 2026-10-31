@@ -1,0 +1,154 @@
+[
+  {
+    "orderId": "SB-410190",
+    "customer": {
+      "firstName": "Navin",
+      "lastName": "Kumar",
+      "email": "navin@example.com",
+      "phone": "9876543210",
+      "address": "42, Avinashi Road, Peelamedu",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "pincode": "641004"
+    },
+    "items": [
+      {
+        "id": "cart-item-1",
+        "productId": "2",
+        "name": "Nimbus Oxford Shirt",
+        "slug": "nimbus-oxford-shirt",
+        "brand": "ShopBee",
+        "size": "L",
+        "color": "Sky Blue",
+        "price": 2499,
+        "regularPrice": 2499,
+        "quantity": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "cart-item-2",
+        "productId": "3",
+        "name": "Heritage Silk Saree",
+        "slug": "heritage-silk-saree",
+        "brand": "ShopBee Heritage",
+        "size": "Free Size",
+        "color": "Crimson Gold",
+        "price": 7499,
+        "regularPrice": 8999,
+        "quantity": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "cart-item-1793384824665-jhw1",
+        "productId": "k12",
+        "name": "Chunky Knit Cotton Kids Cardigan",
+        "slug": "chunky-knit-cotton-kids-cardigan",
+        "brand": "ShopBee Kids",
+        "size": "2-3Y",
+        "color": "Oatmeal Heather",
+        "price": 1799,
+        "regularPrice": 2299,
+        "quantity": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": "cart-item-1793385377993-im8d",
+        "productId": "w2",
+        "name": "Chanderi Zari Woven Festive Saree",
+        "slug": "chanderi-zari-woven-festive-saree",
+        "brand": "ShopBee",
+        "size": "S",
+        "color": "Default",
+        "price": 4999,
+        "regularPrice": 5999,
+        "quantity": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1200&q=80"
+      }
+    ],
+    "paymentMethod": "cod",
+    "total": 25393,
+    "createdAt": "2026-10-30T18:36:50.190Z",
+    "savedAt": "2026-10-30T18:36:50.213Z"
+  },
+  {
+    "orderId": "SB-506467",
+    "customer": {
+      "firstName": "Navin",
+      "lastName": "Kumar",
+      "email": "navin@example.com",
+      "phone": "9876543210",
+      "address": "42, Avinashi Road, Peelamedu",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "pincode": "641004"
+    },
+    "items": [
+      {
+        "id": "cart-item-1",
+        "productId": "2",
+        "name": "Nimbus Oxford Shirt",
+        "slug": "nimbus-oxford-shirt",
+        "brand": "ShopBee",
+        "size": "L",
+        "color": "Sky Blue",
+        "price": 2499,
+        "regularPrice": 2499,
+        "quantity": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "cart-item-2",
+        "productId": "3",
+        "name": "Heritage Silk Saree",
+        "slug": "heritage-silk-saree",
+        "brand": "ShopBee Heritage",
+        "size": "Free Size",
+        "color": "Crimson Gold",
+        "price": 7499,
+        "regularPrice": 8999,
+        "quantity": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "cart-item-1793301494365-1pzh",
+        "productId": "30",
+        "name": "Minimalist Rose Gold Mesh Watch",
+        "slug": "minimalist-rose-gold-mesh-watch",
+        "brand": "ShopBee",
+        "size": "S",
+        "color": "Default",
+        "price": 4499,
+        "regularPrice": 5299,
+        "quantity": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1200&q=80"
+      }
+    ],
+    "paymentMethod": "upi",
+    "total": 18996,
+    "createdAt": "2026-10-29T19:18:26.467Z",
+    "savedAt": "2026-10-29T19:18:26.525Z"
+  },
+  {
+    "customer": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@example.com",
+      "phone": "9876543210",
+      "address": "123 Main St",
+      "city": "Bangalore",
+      "pincode": "560001"
+    },
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Oxford Shirt",
+        "price": 1899,
+        "quantity": 1
+      }
+    ],
+    "paymentMethod": "UPI",
+    "orderId": "SB-TEST-001",
+    "total": 1899,
+    "savedAt": "2026-10-29T19:12:59.990Z"
+  }
+]

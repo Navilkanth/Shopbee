@@ -1,0 +1,36 @@
+{
+  "name": "shopbee",
+  "private": true,
+  "version": "0.1.0",
+  "description": "ShopBee — fashion e-commerce platform",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev:web",
+    "dev:web": "npm run dev --workspace=@shopbee/web",
+    "dev:api": "npm run dev --workspace=@shopbee/api",
+    "build": "npm run build --workspace=@shopbee/web",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:seed": "prisma db seed",
+    "lint": "npm run lint -w @shopbee/web && npm run lint -w @shopbee/api",
+    "format": "prettier --write ."
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "prisma": "^6.5.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

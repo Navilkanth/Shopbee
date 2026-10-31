@@ -1,0 +1,23 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: shopbee-mysql
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: shopbee
+      MYSQL_DATABASE: shopbee
+      MYSQL_USER: shopbee
+      MYSQL_PASSWORD: shopbee
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --default-time-zone=+00:00
+    volumes:
+      - shopbee_mysql:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-ushopbee", "-pshopbee"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  shopbee_mysql:

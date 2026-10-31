@@ -1,0 +1,117 @@
+{
+  "settings": {
+    "store_name": "ShopBee",
+    "tagline": "Shop Your Style. Explore Beyond Fashion.",
+    "phone": "9087035510",
+    "email": "shopbee@gmail.com",
+    "address": "ShopBee Fashion House, Ground Floor, MG Road, Coimbatore, Tamil Nadu 641001",
+    "opening_hours": "Monday–Saturday 10:00 AM – 8:30 PM · Sunday 11:00 AM – 7:00 PM (Asia/Kolkata)",
+    "hero_image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=2000&q=80"
+  },
+  "layout": {
+    "disclaimer": "This is a stylised digital model of ShopBee Fashion House for wayfinding. It is not a measured architectural survey of a specific building.",
+    "floors": [
+      { "id": "ground", "name": "Ground Floor", "level": 0 }
+    ],
+    "departments": [
+      {
+        "id": "men",
+        "name": "Men",
+        "slug": "men",
+        "floorId": "ground",
+        "x": -7.2,
+        "z": -1.2,
+        "width": 7.4,
+        "depth": 8.4,
+        "height": 3.2,
+        "color": "#3d4a63",
+        "categorySlug": "men",
+        "description": "Shirts, denim, kurtas and everyday menswear."
+      },
+      {
+        "id": "women",
+        "name": "Women",
+        "slug": "women",
+        "floorId": "ground",
+        "x": 7.2,
+        "z": -1.2,
+        "width": 7.4,
+        "depth": 8.4,
+        "height": 3.2,
+        "color": "#8c5a62",
+        "categorySlug": "women",
+        "description": "Sarees, kurtis, dresses and festive wear."
+      },
+      {
+        "id": "adult",
+        "name": "Adult",
+        "slug": "adult",
+        "floorId": "ground",
+        "x": 0,
+        "z": -1.4,
+        "width": 5.6,
+        "depth": 5.2,
+        "height": 3.2,
+        "color": "#6b5b43",
+        "categorySlug": "accessories",
+        "description": "Unisex and adult essentials shared across collections."
+      },
+      {
+        "id": "kids",
+        "name": "Kids",
+        "slug": "kids",
+        "floorId": "ground",
+        "x": -7.2,
+        "z": 6.4,
+        "width": 7.4,
+        "depth": 5.6,
+        "height": 3.2,
+        "color": "#4f6f62",
+        "categorySlug": "kids",
+        "description": "Boys, girls and family-ready kidswear."
+      },
+      {
+        "id": "cosmetics",
+        "name": "Cosmetics",
+        "slug": "cosmetics",
+        "floorId": "ground",
+        "x": 7.2,
+        "z": 6.4,
+        "width": 7.4,
+        "depth": 5.6,
+        "height": 3.2,
+        "color": "#b76e79",
+        "categorySlug": "cosmetics",
+        "description": "Skincare, colour and fragrance."
+      },
+      {
+        "id": "accessories",
+        "name": "Accessories",
+        "slug": "accessories",
+        "floorId": "ground",
+        "x": 0,
+        "z": 6.6,
+        "width": 5.6,
+        "depth": 5.2,
+        "height": 3.2,
+        "color": "#c9a227",
+        "categorySlug": "accessories",
+        "description": "Bags, jewellery and finishing pieces."
+      },
+      {
+        "id": "billing",
+        "name": "Billing",
+        "slug": "billing",
+        "floorId": "ground",
+        "x": 0,
+        "z": 11.4,
+        "width": 5.2,
+        "depth": 2.4,
+        "height": 2.4,
+        "color": "#151515",
+        "categorySlug": null,
+        "description": "Customer billing counters near the main entrance."
+      }
+    ]
+  }
+}
